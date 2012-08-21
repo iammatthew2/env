@@ -1,0 +1,8 @@
+{
+  "project_id" : "karakoram",
+  "conduit_uri" : "http://phabricator.example.com:5000/",
+  "arcanist_configuration" : "JiraConfiguration",
+  "load" : [
+    "/Users/gberger/Sites/phab/jira/src/"
+  ]
+}
