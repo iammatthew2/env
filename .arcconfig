@@ -1,7 +1,7 @@
 {
   "project_id" : "env",
   "conduit_uri" : "http://phabricator.example.com:5000/",
-  "arcanist_configuration" : "JiraConfiguration",
+  "arcanist_configuration" : "PhiraConfiguration",
   "load" : [
     "/Users/gberger/Sites/phab/phira/src/"
   ]
