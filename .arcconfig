@@ -2,7 +2,6 @@
   "project_id" : "env",
   "conduit_uri" : "http://phabricator.example.com:5000/",
   "arcanist_configuration" : "JiraConfiguration",
-  "jira_queue" : "DEV",
   "load" : [
     "/Users/gberger/Sites/phab/jircana/src/"
   ]
