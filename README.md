@@ -2,4 +2,4 @@ Initial commit
 
 I don't know what i'm doing
 
-nofx is funny
+new strung out is ehh
