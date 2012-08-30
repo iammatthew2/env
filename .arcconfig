@@ -3,6 +3,7 @@
   "conduit_uri" : "http://phabricator.example.com:5000/",
   "arcanist_configuration" : "JiraConfiguration",
   "jira_queue" : "DEV",
+  "events.listeners" : [ "JiraRevisionListener" ],
   "load" : [
     "/Users/gberger/Sites/phab/jircana/src/"
   ]
