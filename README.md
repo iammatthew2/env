@@ -2,4 +2,4 @@ Initial commit
 
 my feet hurt
 
-foobar
+foo bar
