@@ -7,3 +7,5 @@ bombs away
 drunk for 7 days
 
 born right
+
+hurt the ones
