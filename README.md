@@ -1,9 +1,3 @@
 Initial commit
 
-great record
-
-sing along
-
-gurlllllll
-
-hi
+sharing never was a choce
