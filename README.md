@@ -1,5 +1,3 @@
 Initial commit
 
-too many temptations
-
-take a stand
+no one feels like I do
