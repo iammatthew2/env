@@ -1,9 +1,3 @@
 Initial commit
 
-laugh
-
-facedown
-
-appreicate
-
-I'm alright
+we counted hours
