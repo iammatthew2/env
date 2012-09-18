@@ -5,6 +5,6 @@
   "jira_queue" : "DEV",
   "events.listeners" : [ "JiraRevisionListener" ],
   "load" : [
-    "jircana/src/"
+    "/Users/gberger/Sites/phab/jircana/src/"
   ]
 }
