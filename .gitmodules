@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/vim-livereload"]
 	path = .vim/bundle/vim-livereload
 	url = https://github.com/flomotlik/vim-livereload.git
+[submodule ".vim/bundle/vim-django"]
+	path = .vim/bundle/vim-django
+	url = https://github.com/cwood/vim-django.git
