@@ -25,6 +25,12 @@ set expandtab
 set list listchars=tab:\ \ ,trail:·
 set textwidth=79
 
+source ~/env/.vimrc-python
+let g:django_projects = '~/Workspace' "Sets all projects under project
+let g:django_project_container = 'source' "Inside of these folders look for source
+let g:django_activate_virtualenv = 1 "Try to activate the associated virtualenv
+let g:django_activate_nerdtree = 1 "Try to open nerdtree at the project root.
+
 " File types
 filetype plugin indent on
 
