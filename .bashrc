@@ -28,7 +28,6 @@ alias unmount='/usr/sbin/diskutil unmount'
 ##################################
 # Local Drupal Aliases
 ##################################
-alias drush='~/src/drush/drush'
 alias dp='cd ~/Sites/drupal'
 alias dpthemes='cd ~/Sites/drupal/sites/all/themes'
 alias dpmodules='cd ~/Sites/drupal/sites/all/modules'
