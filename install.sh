@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ENV_DIR=/Users/geoff/env
+ENV_DIR=/Users/geoffberger/env
 ENV_FILES=`ls -a $ENV_DIR`
 EXCLUDED_FILES=( . .. install.sh .bashrc .git )
 ENDS_WITH=( swp )
