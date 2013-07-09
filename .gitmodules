@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/vim-django"]
 	path = .vim/bundle/vim-django
 	url = https://github.com/cwood/vim-django.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
