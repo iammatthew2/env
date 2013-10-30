@@ -5,6 +5,8 @@ shopt -s checkwinsize
 
 source ~/scripts/git-completion.bash
 
+PATH=~/bin:/usr/local/bin:"$PATH"
+
 ##################################
 # General Aliases
 ##################################
@@ -24,6 +26,8 @@ alias musicunmnt='~/scripts/music/music_unmount.sh'
 alias scpresume='rsync --partial --progress --rsh=ssh'
 alias sshfs='/Applications/sshfs/bin/mount_sshfs'
 alias unmount='/usr/sbin/diskutil unmount'
+alias simulator='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'
+alias gr='grep -r -i'
 
 ##################################
 # Local Drupal Aliases

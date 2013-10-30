@@ -1,0 +1,41 @@
+{
+	"auto_complete": true,
+	"caret_style": "phase",
+	"close_windows_when_empty": false,
+	"find_selected_text": true,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_build",
+		"dist",
+		"build",
+		"site",
+		".sass-cache"
+	],
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"no_antialias"
+	],
+	"font_size": 10.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"remember_open_files": true,
+	"remember_open_folders": true,
+	"rulers":
+	[
+		79,
+		119
+	],
+	"show_full_path": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true
+}
