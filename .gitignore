@@ -5,3 +5,4 @@ node-install
 env.properties
 .bashrc_local
 .pyc
+*.cache
