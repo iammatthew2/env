@@ -26,7 +26,18 @@
     "Backbone",
     "define",
     "Ember",
-    "Mustache"
+    "Mustache",
+    "require",
+    "define",
+    "describe",
+    "it",
+    "expect",
+    "spyOn",
+    "runs",
+    "waitsFor",
+    "beforeEach",
+    "afterEach",
+    "casper"
   ],
 
   // Development.
