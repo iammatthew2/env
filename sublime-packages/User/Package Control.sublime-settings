@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Coffee Formatter",
+		"CoffeeScript",
 		"Djaneiro",
 		"DocBlockr",
 		"EJS",

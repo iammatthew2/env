@@ -202,7 +202,7 @@
     {
         "class": "scroll_bar_control",
         "layer0.texture": "",
-        "layer0.tint": [192, 197, 206], // 05
+        "layer0.tint": [230, 233, 240], // 06
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "blur": true
@@ -212,7 +212,7 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint": [192, 197, 206], // 05
+        "layer0.tint": [230, 233, 240], // 06
         "layer0.inner_margin": [0,0],
         "blur": true
     },
@@ -220,7 +220,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint": [192, 197, 206], // 05
+        "layer0.tint": [230, 233, 240], // 06
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1
     },
@@ -655,7 +655,7 @@
         "layer0.texture": "",
         "layer0.tint": [223, 225, 232], // 06
         "layer0.opacity": 1,
-        "content_margin": [4,4,4,4]
+        "content_margin": 6
     },
 
 //
@@ -689,8 +689,8 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [0,0,0],
-        "layer0.opacity": 0,
+        "layer0.tint": [223, 225, 232],
+        "layer0.opacity": 1,
         "dark_content": true
     },
     {

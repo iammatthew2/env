@@ -72,7 +72,7 @@ repository:
     - include: '#special-comments-conditional-compilation'
 
     - name: comment.block.documentation.js
-      begin: /\*\*
+      begin: /\*\*(?!/)
       end: \*/
       captures:
         '0': {name: punctuation.definition.comment.js}
@@ -178,7 +178,7 @@ repository:
     patterns:
     # e.g. function myFunc(arg) {  }
     - name: meta.function.js
-      match: \b(function\*?)(?:\s+([a-zA-Z_$]\w*))?\s*(\()(.*?)(\))
+      match: \b(function\*?)(?:\s+([a-zA-Z_$][_$\w]*))?\s*(\()(.*?)(\))
       captures:
         '1': {name: storage.type.function.js}
         '2': {name: entity.name.function.js}
