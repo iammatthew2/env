@@ -2,6 +2,7 @@
 	"auto_complete": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"find_selected_text": true,
 	"fold_buttons": false,
 	"folder_exclude_patterns":
@@ -34,6 +35,7 @@
 		119
 	],
 	"show_full_path": true,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,

@@ -1,5 +1,6 @@
 *.sw*
 *.pyc
+*.cache
 .vim/.netrwhist
 node-install
 env.properties

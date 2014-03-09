@@ -1,11 +1,14 @@
 {
 	"installed_packages":
 	[
+		"Coffee Formatter",
+		"CoffeeScript",
 		"Djaneiro",
 		"DocBlockr",
 		"EJS",
 		"Git",
 		"Github Tools",
+		"INI",
 		"JavaScriptNext - ES6 Syntax",
 		"JSHint",
 		"Markdown Extended",
@@ -14,6 +17,7 @@
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"Theme - Spacegray",
 		"VintageEx"
 	]
 }
