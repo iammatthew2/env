@@ -561,6 +561,35 @@
 
     <dict>
       <key>begin</key>
+      <string>(```)\s*(swift)\s*$</string>
+      <key>captures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>punctuation.definition.fenced.markdown</string>
+        </dict>
+        <key>2</key>
+        <dict>
+          <key>name</key>
+          <string>variable.language.fenced.markdown</string>
+        </dict>
+      </dict>
+      <key>end</key>
+      <string>(\1)\n</string>
+      <key>name</key>
+      <string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+      <key>patterns</key>
+      <array>
+        <dict>
+          <key>include</key>
+          <string>source.swift</string>
+        </dict>
+      </array>
+    </dict>
+
+    <dict>
+      <key>begin</key>
       <string>(```)\s*(obj(?:ective\-|)c)\s*$</string>
       <key>captures</key>
       <dict>
@@ -700,6 +729,35 @@
         <dict>
           <key>include</key>
           <string>source.python</string>
+        </dict>
+      </array>
+    </dict>
+
+    <dict>
+      <key>begin</key>
+      <string>(```)\s*\{?\s*(r)(?:[ \}].*$|\}?$)</string>
+      <key>captures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>punctuation.definition.fenced.markdown</string>
+        </dict>
+        <key>2</key>
+        <dict>
+          <key>name</key>
+          <string>variable.language.fenced.markdown</string>
+        </dict>
+      </dict>
+      <key>end</key>
+      <string>(\1)\n</string>
+      <key>name</key>
+      <string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+      <key>patterns</key>
+      <array>
+        <dict>
+          <key>include</key>
+          <string>source.r</string>
         </dict>
       </array>
     </dict>
@@ -851,7 +909,7 @@
 
     <dict>
       <key>begin</key>
-      <string>(```)\s*(shell|bash)\s*$</string>
+      <string>(```)\s*(sh|shell|bash)\s*$</string>
       <key>captures</key>
       <dict>
         <key>1</key>
@@ -1113,6 +1171,10 @@
       <array>
         <dict>
           <key>include</key>
+          <string>text.html.basic</string>
+        </dict>
+        <dict>
+          <key>include</key>
           <string>text.html.handlebars</string>
         </dict>
       </array>
@@ -1129,6 +1191,10 @@
       <string>meta.disable-markdown</string>
       <key>patterns</key>
       <array>
+        <dict>
+          <key>include</key>
+          <string>text.html.basic</string>
+        </dict>
         <dict>
           <key>include</key>
           <string>text.html.handlebars</string>

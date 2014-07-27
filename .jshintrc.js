@@ -37,7 +37,9 @@
     "waitsFor",
     "beforeEach",
     "afterEach",
-    "casper"
+    "casper",
+    "module",
+    "exports"
   ],
 
   // Development.
